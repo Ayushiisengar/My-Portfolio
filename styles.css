@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+  }
+  
+  header span {
+    font-size: 18px;
+  }
+  
+  .left {
+    font-weight: bold;
+  }
+  
+  .center {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .right a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  #contact {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
