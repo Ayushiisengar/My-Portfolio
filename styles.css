@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   background-color: #F9FAFB;
+  color: black;
 }
 body{
   display: flex;
@@ -9,12 +10,39 @@ body{
 }
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #1E293B;
-    height: 10vh;
+    flex-direction: column;
+    height: 100vh;
     width: 98.7vw;
     border-bottom: 0.1vh black solid;
+  }
+  header span{
+    margin: 1vh;
+    font-family:'Dancing Script', cursive; 
+    color: black;
+  }
+  header .up{
+    font-size: 5vh;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  header .down-1{
+    margin-left: 10vw;
+    font-size: 35vh;
+    letter-spacing: 1vw;
+    
+  }
+  header .down-2{
+    display: flex;
+    flex-direction: row;
+  }
+  header .down-2 .down-2-left{
+    margin-left: 10vw;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3vh;
+  }
+  header .down-2 .down-2-right{
+    font-size: 35vh;
+    letter-spacing: 1vw;
   }
   main{
     height: 89.9vh;
