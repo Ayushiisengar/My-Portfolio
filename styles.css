@@ -50,33 +50,29 @@ header {
     background-color: #F9FAFB;
     border-bottom: 0.1vh black solid;
     display: flex;
-    flex-direction: row;
-  }
-  main .left{
-    border: 0.1vh black solid;
-    margin: 1vh;
-    height: 88vh;
-    width: 33.9vw;
-  }
-  main .right{
-    border: 0.1vh black solid;
-    margin: 1vh;
-    height: 88vh;
-    width: 64.8vw;
-    display: flex;
     flex-direction: column;
   }
-  main .right .right-up{
-    border: 0.1vh black solid;
-    margin: 0.5vh;
-    height: 44vh;
-    width: 64.8;
+  main .up{
+    margin: 1vw;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 6vh;
+    overflow: hidden;
+    white-space: nowrap; /* important */
+    position: relative;
   }
-  main .right .right-down{
-    border: 0.1vh black solid;
-    margin: 0.5vh;
-    height: 44vh;
-    width: 64.8;
+  main .up span{
+    display: inline-block;
+    padding-left: 100%; 
+    animation: scrollText 25s linear infinite;
+  }
+
+  @keyframes scrollText {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
   footer{
     height: 30vh;
