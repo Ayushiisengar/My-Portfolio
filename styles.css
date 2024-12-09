@@ -1,33 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #F9FAFB;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: #f0f0f0;
+    background-color: #1E293B;
+    height: 10vh;
+    width: 98.7vw;
+    border-bottom: 0.1vh black solid;
   }
-  
-  header span {
-    font-size: 18px;
+  main{
+    height: 89.9vh;
+    width: 98.7vw;
+    background-color: #F9FAFB;
+    border-bottom: 0.1vh black solid;
+    display: flex;
+    flex-direction: row;
   }
-  
-  .left {
-    font-weight: bold;
+  main .left{
+    border: 0.1vh black solid;
+    margin: 1vh;
+    height: 88vh;
+    width: 33.9vw;
   }
-  
-  .center {
-    flex-grow: 1;
-    text-align: center;
+  main .right{
+    border: 0.1vh black solid;
+    margin: 1vh;
+    height: 88vh;
+    width: 64.8vw;
+    display: flex;
+    flex-direction: column;
   }
-  
-  .right a {
-    font-size: 18px;
-    text-decoration: none;
-    color: #007BFF;
+  main .right .right-up{
+    border: 0.1vh black solid;
+    margin: 0.5vh;
+    height: 44vh;
+    width: 64.8;
   }
-  
-  #contact {
-    margin-top: 50px;
-    padding: 20px;
-    background-color: #f9f9f9;
+  main .right .right-down{
+    border: 0.1vh black solid;
+    margin: 0.5vh;
+    height: 44vh;
+    width: 64.8;
   }
-  
+  footer{
+    height: 30vh;
+    width: 98.7vw;
+    background-color: #1E293B;
+  }
