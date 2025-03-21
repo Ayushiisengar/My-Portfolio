@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
@@ -23,10 +21,9 @@ function Home2() {
                 <b className="purple"> C,C++,Python and Java. </b>
               </i>
               <br />
-              <br />
-              I am a Full Stack Developer as well.&nbsp;
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              <br />I am a Full Stack Developer as well.&nbsp; Whenever
+              possible, I also apply my passion for developing products with{" "}
+              <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -59,7 +56,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/ayushi-sengar-093574250/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -68,16 +65,16 @@ function Home2() {
                 </a>
               </li>
               <li className="social-icons">
-                            <a
-                            href="https://leetcode.com/ayushiisengar"
-                            style={{ color: "white" }}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="icon-colour  home-social-icons"
-                            >
-                              <SiLeetcode />
-                            </a>
-                          </li>
+                <a
+                  href="https://leetcode.com/ayushiisengar"
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiLeetcode />
+                </a>
+              </li>
             </ul>
           </Col>
         </Row>
