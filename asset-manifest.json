@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Ayushiisengar/My-Portfolio/static/css/main.7821c799.css",
+    "main.js": "/Ayushiisengar/My-Portfolio/static/js/main.f5c70027.js",
+    "static/js/453.acca0757.chunk.js": "/Ayushiisengar/My-Portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/Ayushi Sengar.pdf": "/Ayushiisengar/My-Portfolio/static/media/Ayushi Sengar.4e68a74f8e2abf5cff82.pdf",
+    "index.html": "/Ayushiisengar/My-Portfolio/index.html",
+    "main.7821c799.css.map": "/Ayushiisengar/My-Portfolio/static/css/main.7821c799.css.map",
+    "main.f5c70027.js.map": "/Ayushiisengar/My-Portfolio/static/js/main.f5c70027.js.map",
+    "453.acca0757.chunk.js.map": "/Ayushiisengar/My-Portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7821c799.css",
+    "static/js/main.f5c70027.js"
+  ]
+}
